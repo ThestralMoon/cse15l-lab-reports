@@ -4,4 +4,4 @@ Insert random nonsense here...
 
 ### [Test And Errors Lab Report - Lab Report 2](https://thestralmoon.github.io/cse15l-lab-reports/Tests%20And%20Errors%20Lab%20Report)
 
-### [Debugging Lab Report - Lab Report 4]()
+### [Debugging Lab Report - Lab Report 4](https://thestralmoon.github.io/cse15l-lab-reports/Debugging%20Lab%20Report)
