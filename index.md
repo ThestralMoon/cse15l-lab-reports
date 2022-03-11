@@ -8,4 +8,4 @@ Insert random nonsense here...
 
 ### [Debugging Lab Report - Lab Report 4](https://thestralmoon.github.io/cse15l-lab-reports/Debugging%20Lab%20Report)
 
-### [Different Bugs, Different Implementations - Lab Report 5]()
+### [Different Bugs, Different Implementations - Lab Report 5](https://thestralmoon.github.io/cse15l-lab-reports/Different%20Bugs%20Different%20Implementations)
