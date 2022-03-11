@@ -7,3 +7,5 @@ Insert random nonsense here...
 ### [Streamlining SSH Configuration Lab Report - Lab Report 3](https://thestralmoon.github.io/cse15l-lab-reports/Streamlining%20SSH%20Configuration%20Lab%20Report)
 
 ### [Debugging Lab Report - Lab Report 4](https://thestralmoon.github.io/cse15l-lab-reports/Debugging%20Lab%20Report)
+
+### [Different Bugs, Different Implementations - Lab Report 5]()
