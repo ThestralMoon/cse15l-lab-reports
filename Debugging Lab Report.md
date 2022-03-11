@@ -1,6 +1,8 @@
 # Expected Outcomes and Debugging
 
-TODO: INTRO
+[**My Implementation**](https://github.com/ThestralMoon/markdown-parse)
+
+[**Reviewed Implementation**](https://github.com/ucsd-cse15l-w22/markdown-parse)
 
 ## Snippet One
 
@@ -12,6 +14,9 @@ of links in the documents, but the test fails as the fourth link is not returned
 ![Test Fail](/snippet_debugging_lab_report_resources/snippet_one_test_fail.png)
 
 ### Reviewed Implementation
+
+![Test Pass](/snippet_debugging_lab_report_resources/rw_snippet_one_test_pass.png)
+*As it can be seen above, the test case passed and thus was not shown. Only test fails are shown by JUnit*
 
 For the implementation that was reviewed during the lab session, the program ran
 as expected with the test passing and returning all the valid links in the file, but
@@ -63,3 +68,13 @@ links present in the file.
 I was expecting the same outcome with the reviewed implementation and the test failing as a result.
 
 ![Test Fail](/snippet_debugging_lab_report_resources/rw_snippet_three_test_fail.png)
+
+### Program Fix
+
+For this error I do not think it would a small code change to make the test pass and produce
+the expected link outputs due to the more complex nature of the snippet in question created by:
+missing closing parenthesis, plain text and whitespace after links, and line breaks. The fix in question
+would have to include multiple additions as to check if the indices of the starting and ending parenthesis
+are in range of the last link string, taking the link strings and then reformatting them by clearing up
+unwanted whitespace and then returning them as the links found, and also checking for whitespace and line
+breaks for the titles as to avoid IndexOutOfBounds exceptions thrown for the brackets not being found.
