@@ -27,7 +27,7 @@ result in a invalid continuation. If the index is invalid or "Out of Bounds"
 the break line statement would be executed, causing the while loop to break,
 preventing an infinite loop from occurring.
 
-Test File: https://github.com/ThestralMoon/markdown-parse/blob/main/test-file-two.md
+[Test File](https://github.com/ThestralMoon/markdown-parse/blob/main/test-file-two.md)
 
 ## Image Outputted As Link
 
@@ -46,7 +46,7 @@ while skipping the image and only proceeding to add and print out valid
 links as seen as through the second if statement that checks if the boolean
 conditional "ifImage" is false.
 
-Test File: https://github.com/ThestralMoon/markdown-parse/blob/main/test-file.md
+[Test File](https://github.com/ThestralMoon/markdown-parse/blob/main/test-file.md)
 
 ## Plain Text 
 
@@ -64,4 +64,4 @@ open bracket was zero, which if the case would set the isImage boolean to
 false, preventing the program from thinking that the text would be understood
 as an image element.
 
-Test File: https://github.com/ThestralMoon/markdown-parse/blob/main/error-test-file.md
+[Test File](https://github.com/ThestralMoon/markdown-parse/blob/main/error-test-file.md)
